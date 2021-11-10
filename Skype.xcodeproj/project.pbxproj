@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176DC273BCF3A009242C8 /* ChatTBC.swift */; };
+		38D176DF273BCF3A009242C8 /* ChatTBC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176DD273BCF3A009242C8 /* ChatTBC.xib */; };
+		38D176E2273BD425009242C8 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176E0273BD425009242C8 /* MessageCell.xib */; };
+		38D176E3273BD425009242C8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176E1273BD425009242C8 /* MessageCell.swift */; };
 		A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046D273BAFE00030E84E /* AppDelegate.swift */; };
 		A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046F273BAFE00030E84E /* SceneDelegate.swift */; };
 		A1F10472273BAFE00030E84E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10471273BAFE00030E84E /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38D176DC273BCF3A009242C8 /* ChatTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTBC.swift; sourceTree = "<group>"; };
+		38D176DD273BCF3A009242C8 /* ChatTBC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTBC.xib; sourceTree = "<group>"; };
+		38D176E0273BD425009242C8 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		38D176E1273BD425009242C8 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		A1F1046A273BAFE00030E84E /* Skype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1046D273BAFE00030E84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F1046F273BAFE00030E84E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				A1F1046F273BAFE00030E84E /* SceneDelegate.swift */,
 				A1F10471273BAFE00030E84E /* ViewController.swift */,
 				A1F10473273BAFE00030E84E /* Main.storyboard */,
+				38D176DC273BCF3A009242C8 /* ChatTBC.swift */,
+				38D176DD273BCF3A009242C8 /* ChatTBC.xib */,
+				38D176E1273BD425009242C8 /* MessageCell.swift */,
+				38D176E0273BD425009242C8 /* MessageCell.xib */,
 				A1F10479273BAFE20030E84E /* Assets.xcassets */,
 				A1F1047B273BAFE20030E84E /* LaunchScreen.storyboard */,
 				A1F1047E273BAFE20030E84E /* Info.plist */,
@@ -234,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D176E2273BD425009242C8 /* MessageCell.xib in Resources */,
 				A1F1047D273BAFE20030E84E /* LaunchScreen.storyboard in Resources */,
+				38D176DF273BCF3A009242C8 /* ChatTBC.xib in Resources */,
 				A1F1047A273BAFE20030E84E /* Assets.xcassets in Resources */,
 				A1F10475273BAFE00030E84E /* Main.storyboard in Resources */,
 			);
@@ -265,6 +279,8 @@
 				A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */,
 				A1F10478273BAFE00030E84E /* Skype.xcdatamodeld in Sources */,
 				A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */,
+				38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */,
+				38D176E3273BD425009242C8 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
