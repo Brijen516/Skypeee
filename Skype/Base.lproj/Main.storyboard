@@ -22,7 +22,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SH3-Bi-6dR">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vpt-gj-rSt">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="42-426128_ganesh-logo-png-ganesh-png-images-for-wedding-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Vpt-gj-rSt">
                                                 <rect key="frame" x="161.5" y="4" width="52" height="52"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="52" id="W2l-d4-tsn"/>
@@ -39,6 +39,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="onClickVediocall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2R-jk-384"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,18 +78,32 @@
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter text here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v2a-66-CPd">
-                                                <rect key="frame" x="35" y="5" width="280" height="30"/>
+                                                <rect key="frame" x="39" y="5" width="276" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBO-RR-byd">
+                                                <rect key="frame" x="276" y="4.5" width="35" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="31" id="8Sq-Up-COG"/>
+                                                    <constraint firstAttribute="width" constant="35" id="nnh-Pv-y6s"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="clear" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpA-0X-o7w"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="erv-yz-jtJ" firstAttribute="centerY" secondItem="Tz9-Li-1GF" secondAttribute="centerY" id="1eJ-Qd-kH0"/>
                                             <constraint firstItem="v2a-66-CPd" firstAttribute="top" secondItem="Tz9-Li-1GF" secondAttribute="top" constant="5" id="9Tm-S5-gRR"/>
                                             <constraint firstItem="erv-yz-jtJ" firstAttribute="leading" secondItem="Tz9-Li-1GF" secondAttribute="leading" constant="5" id="BIb-jv-02R"/>
-                                            <constraint firstItem="v2a-66-CPd" firstAttribute="leading" secondItem="erv-yz-jtJ" secondAttribute="trailing" id="LcM-li-g8g"/>
+                                            <constraint firstAttribute="trailing" secondItem="gBO-RR-byd" secondAttribute="trailing" constant="4" id="BR1-kV-rRN"/>
+                                            <constraint firstItem="v2a-66-CPd" firstAttribute="leading" secondItem="erv-yz-jtJ" secondAttribute="trailing" constant="4" id="LcM-li-g8g"/>
                                             <constraint firstAttribute="bottom" secondItem="v2a-66-CPd" secondAttribute="bottom" constant="5" id="QfU-1y-zC2"/>
+                                            <constraint firstItem="gBO-RR-byd" firstAttribute="centerY" secondItem="Tz9-Li-1GF" secondAttribute="centerY" id="Z4c-Ym-ygU"/>
                                             <constraint firstAttribute="trailing" secondItem="v2a-66-CPd" secondAttribute="trailing" id="ZTg-SY-pgt"/>
                                             <constraint firstAttribute="bottom" secondItem="erv-yz-jtJ" secondAttribute="bottom" constant="10" id="iNw-7q-ZAt"/>
                                             <constraint firstAttribute="height" constant="40" id="qaM-zO-fEY"/>
@@ -103,6 +120,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="onClickFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjH-mo-sLL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,6 +159,9 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="onClickCall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8e3-2x-vGQ"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -165,6 +188,9 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="onClickChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kte-KH-9FA"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -191,6 +217,9 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="onClickSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uCj-pB-VPE"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -217,6 +246,9 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="onClickProfile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Nj-Zm-SSM"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -275,6 +307,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="82H-tA-Eyo" secondAttribute="bottom" id="wT2-vs-gtC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ivCall" destination="hSv-24-1zr" id="Dzl-lN-FUA"/>
+                        <outlet property="ivChat" destination="5lT-of-SH7" id="vvX-c6-bAR"/>
+                        <outlet property="ivProfile" destination="Mxh-Z4-e6I" id="Y5o-zN-BGR"/>
+                        <outlet property="ivSearch" destination="8Ow-eu-Rcw" id="ndh-cw-YXI"/>
+                        <outlet property="tfClear" destination="gBO-RR-byd" id="tGm-Rl-fmn"/>
+                        <outlet property="tfSearch" destination="v2a-66-CPd" id="hjB-Wj-SZY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -282,8 +322,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="42-426128_ganesh-logo-png-ganesh-png-images-for-wedding-removebg-preview" width="543" height="460"/>
         <image name="call" width="64" height="64"/>
         <image name="chat_unselected" width="64" height="64"/>
+        <image name="clear" catalog="system" width="128" height="114"/>
         <image name="profile_unselected" width="64" height="64"/>
         <image name="search-1" width="64" height="64"/>
         <image name="search_unselected" width="64" height="64"/>
