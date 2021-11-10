@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165351F5F2AEF78A35EEF2A0 /* Pods_Skype_SkypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D283C7868FD3A12DE38D9 /* Pods_Skype_SkypeUITests.framework */; };
 		38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176DC273BCF3A009242C8 /* ChatTBC.swift */; };
 		38D176DF273BCF3A009242C8 /* ChatTBC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176DD273BCF3A009242C8 /* ChatTBC.xib */; };
 		38D176E2273BD425009242C8 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176E0273BD425009242C8 /* MessageCell.xib */; };
 		38D176E3273BD425009242C8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176E1273BD425009242C8 /* MessageCell.swift */; };
 		38D176E5273BDAE9009242C8 /* Chat_Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176E4273BDAE8009242C8 /* Chat_Board.swift */; };
+		38D176E7273BE903009242C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176E6273BE903009242C8 /* Constants.swift */; };
+		38D176EB273BF4A1009242C8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176EA273BF4A1009242C8 /* Message.swift */; };
+		6B59F323128B63B96BF27E0E /* Pods_SkypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0B5A8871306F7D49B6D44A /* Pods_SkypeTests.framework */; };
 		A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046D273BAFE00030E84E /* AppDelegate.swift */; };
 		A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046F273BAFE00030E84E /* SceneDelegate.swift */; };
 		A1F10472273BAFE00030E84E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10471273BAFE00030E84E /* ViewController.swift */; };
@@ -22,6 +26,7 @@
 		A1F10488273BAFE30030E84E /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10487273BAFE30030E84E /* SkypeTests.swift */; };
 		A1F10492273BAFE30030E84E /* SkypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10491273BAFE30030E84E /* SkypeUITests.swift */; };
 		A1F10494273BAFE30030E84E /* SkypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10493273BAFE30030E84E /* SkypeUITestsLaunchTests.swift */; };
+		EA035EA7D9407BC987257260 /* Pods_Skype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B049192FBCBA069996A751E5 /* Pods_Skype.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0B5A8871306F7D49B6D44A /* Pods_SkypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkypeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6D283C7868FD3A12DE38D9 /* Pods_Skype_SkypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skype_SkypeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A91A6703D4755B916F62CC /* Pods-SkypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkypeTests.release.xcconfig"; path = "Target Support Files/Pods-SkypeTests/Pods-SkypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CA40BA67FAFE9594D54DED4 /* Pods-SkypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkypeTests.debug.xcconfig"; path = "Target Support Files/Pods-SkypeTests/Pods-SkypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38D176DC273BCF3A009242C8 /* ChatTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTBC.swift; sourceTree = "<group>"; };
 		38D176DD273BCF3A009242C8 /* ChatTBC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTBC.xib; sourceTree = "<group>"; };
 		38D176E0273BD425009242C8 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		38D176E1273BD425009242C8 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		38D176E4273BDAE8009242C8 /* Chat_Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_Board.swift; sourceTree = "<group>"; };
+		38D176E6273BE903009242C8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38D176EA273BF4A1009242C8 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		48D5AA637890119EF1EB49D3 /* Pods-Skype-SkypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype-SkypeUITests.release.xcconfig"; path = "Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71AF3572FB595603DFF7AE88 /* Pods-Skype-SkypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype-SkypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1F1046A273BAFE00030E84E /* Skype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1046D273BAFE00030E84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F1046F273BAFE00030E84E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +74,9 @@
 		A1F1048D273BAFE30030E84E /* SkypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F10491273BAFE30030E84E /* SkypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypeUITests.swift; sourceTree = "<group>"; };
 		A1F10493273BAFE30030E84E /* SkypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B049192FBCBA069996A751E5 /* Pods_Skype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3793656F7747A8EB6472B44 /* Pods-Skype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype.debug.xcconfig"; path = "Target Support Files/Pods-Skype/Pods-Skype.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FE43536A304E5653654C39 /* Pods-Skype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype.release.xcconfig"; path = "Target Support Files/Pods-Skype/Pods-Skype.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA035EA7D9407BC987257260 /* Pods_Skype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B59F323128B63B96BF27E0E /* Pods_SkypeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165351F5F2AEF78A35EEF2A0 /* Pods_Skype_SkypeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030BEF99A9ED916455171DD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B049192FBCBA069996A751E5 /* Pods_Skype.framework */,
+				0D6D283C7868FD3A12DE38D9 /* Pods_Skype_SkypeUITests.framework */,
+				0A0B5A8871306F7D49B6D44A /* Pods_SkypeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1F10461273BAFE00030E84E = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +124,8 @@
 				A1F10486273BAFE30030E84E /* SkypeTests */,
 				A1F10490273BAFE30030E84E /* SkypeUITests */,
 				A1F1046B273BAFE00030E84E /* Products */,
+				A3E07109EC89C59B64A1350E /* Pods */,
+				030BEF99A9ED916455171DD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +145,7 @@
 				A1F1046D273BAFE00030E84E /* AppDelegate.swift */,
 				A1F1046F273BAFE00030E84E /* SceneDelegate.swift */,
 				A1F10471273BAFE00030E84E /* ViewController.swift */,
+				38D176EA273BF4A1009242C8 /* Message.swift */,
 				A1F10473273BAFE00030E84E /* Main.storyboard */,
 				38D176E4273BDAE8009242C8 /* Chat_Board.swift */,
 				38D176DC273BCF3A009242C8 /* ChatTBC.swift */,
@@ -121,6 +153,7 @@
 				38D176E1273BD425009242C8 /* MessageCell.swift */,
 				38D176E0273BD425009242C8 /* MessageCell.xib */,
 				A1F10479273BAFE20030E84E /* Assets.xcassets */,
+				38D176E6273BE903009242C8 /* Constants.swift */,
 				A1F1047B273BAFE20030E84E /* LaunchScreen.storyboard */,
 				A1F1047E273BAFE20030E84E /* Info.plist */,
 				A1F10476273BAFE00030E84E /* Skype.xcdatamodeld */,
@@ -145,6 +178,19 @@
 			path = SkypeUITests;
 			sourceTree = "<group>";
 		};
+		A3E07109EC89C59B64A1350E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3793656F7747A8EB6472B44 /* Pods-Skype.debug.xcconfig */,
+				F3FE43536A304E5653654C39 /* Pods-Skype.release.xcconfig */,
+				71AF3572FB595603DFF7AE88 /* Pods-Skype-SkypeUITests.debug.xcconfig */,
+				48D5AA637890119EF1EB49D3 /* Pods-Skype-SkypeUITests.release.xcconfig */,
+				1CA40BA67FAFE9594D54DED4 /* Pods-SkypeTests.debug.xcconfig */,
+				17A91A6703D4755B916F62CC /* Pods-SkypeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F10497273BAFE30030E84E /* Build configuration list for PBXNativeTarget "Skype" */;
 			buildPhases = (
+				530FE7EF66FC5ADAF3D824FA /* [CP] Check Pods Manifest.lock */,
 				A1F10466273BAFE00030E84E /* Sources */,
 				A1F10467273BAFE00030E84E /* Frameworks */,
 				A1F10468273BAFE00030E84E /* Resources */,
+				F867C56786DCA0EDE65F31DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F1049A273BAFE30030E84E /* Build configuration list for PBXNativeTarget "SkypeTests" */;
 			buildPhases = (
+				74431F3A16278D805EB63FB3 /* [CP] Check Pods Manifest.lock */,
 				A1F1047F273BAFE20030E84E /* Sources */,
 				A1F10480273BAFE20030E84E /* Frameworks */,
 				A1F10481273BAFE20030E84E /* Resources */,
@@ -187,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F1049D273BAFE30030E84E /* Build configuration list for PBXNativeTarget "SkypeUITests" */;
 			buildPhases = (
+				7E08EE2079DCB7C84DEB44ED /* [CP] Check Pods Manifest.lock */,
 				A1F10489273BAFE30030E84E /* Sources */,
 				A1F1048A273BAFE30030E84E /* Frameworks */,
 				A1F1048B273BAFE30030E84E /* Resources */,
+				92E96614BE59B2ED343994E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,6 +324,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		530FE7EF66FC5ADAF3D824FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74431F3A16278D805EB63FB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkypeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E08EE2079DCB7C84DEB44ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skype-SkypeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E96614BE59B2ED343994E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F867C56786DCA0EDE65F31DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skype/Pods-Skype-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skype/Pods-Skype-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skype/Pods-Skype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1F10466273BAFE00030E84E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,10 +435,12 @@
 				A1F10472273BAFE00030E84E /* ViewController.swift in Sources */,
 				A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */,
 				38D176E5273BDAE9009242C8 /* Chat_Board.swift in Sources */,
+				38D176EB273BF4A1009242C8 /* Message.swift in Sources */,
 				A1F10478273BAFE00030E84E /* Skype.xcdatamodeld in Sources */,
 				A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */,
 				38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */,
 				38D176E3273BD425009242C8 /* MessageCell.swift in Sources */,
+				38D176E7273BE903009242C8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,12 +614,13 @@
 		};
 		A1F10498273BAFE30030E84E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3793656F7747A8EB6472B44 /* Pods-Skype.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4STQ9RY7X3;
+				DEVELOPMENT_TEAM = V6LYMT2HF6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skype/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +633,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Skype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Skype2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,12 +643,13 @@
 		};
 		A1F10499273BAFE30030E84E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FE43536A304E5653654C39 /* Pods-Skype.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4STQ9RY7X3;
+				DEVELOPMENT_TEAM = V6LYMT2HF6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skype/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -504,7 +662,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Skype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Skype2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -514,6 +672,7 @@
 		};
 		A1F1049B273BAFE30030E84E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA40BA67FAFE9594D54DED4 /* Pods-SkypeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +698,7 @@
 		};
 		A1F1049C273BAFE30030E84E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A91A6703D4755B916F62CC /* Pods-SkypeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +724,7 @@
 		};
 		A1F1049E273BAFE30030E84E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AF3572FB595603DFF7AE88 /* Pods-Skype-SkypeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +748,7 @@
 		};
 		A1F1049F273BAFE30030E84E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D5AA637890119EF1EB49D3 /* Pods-Skype-SkypeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

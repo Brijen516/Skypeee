@@ -1,0 +1,6 @@
+framework module Pods_Skype_SkypeUITests {
+  umbrella header "Pods-Skype-SkypeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
