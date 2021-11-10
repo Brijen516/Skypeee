@@ -8,7 +8,11 @@
 import UIKit
 
 class ChatTBC: UITableViewCell {
-
+    @IBOutlet weak var lbTime: UILabel!
+    @IBOutlet weak var lbMessage: UILabel!
+    
+    @IBOutlet weak var lbName: UILabel!
+    @IBOutlet weak var IMG: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
