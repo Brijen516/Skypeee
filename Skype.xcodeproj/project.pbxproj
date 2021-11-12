@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		165351F5F2AEF78A35EEF2A0 /* Pods_Skype_SkypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D283C7868FD3A12DE38D9 /* Pods_Skype_SkypeUITests.framework */; };
+		387A3B6F273E474300083B54 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A3B6E273E474300083B54 /* SignInVC.swift */; };
 		38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176DC273BCF3A009242C8 /* ChatTBC.swift */; };
 		38D176DF273BCF3A009242C8 /* ChatTBC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176DD273BCF3A009242C8 /* ChatTBC.xib */; };
 		38D176E2273BD425009242C8 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D176E0273BD425009242C8 /* MessageCell.xib */; };
@@ -51,6 +52,7 @@
 		0D6D283C7868FD3A12DE38D9 /* Pods_Skype_SkypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skype_SkypeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A91A6703D4755B916F62CC /* Pods-SkypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkypeTests.release.xcconfig"; path = "Target Support Files/Pods-SkypeTests/Pods-SkypeTests.release.xcconfig"; sourceTree = "<group>"; };
 		1CA40BA67FAFE9594D54DED4 /* Pods-SkypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkypeTests.debug.xcconfig"; path = "Target Support Files/Pods-SkypeTests/Pods-SkypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		387A3B6E273E474300083B54 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		38D176DC273BCF3A009242C8 /* ChatTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTBC.swift; sourceTree = "<group>"; };
 		38D176DD273BCF3A009242C8 /* ChatTBC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTBC.xib; sourceTree = "<group>"; };
 		38D176E0273BD425009242C8 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				A1F10471273BAFE00030E84E /* ViewController.swift */,
 				38D176EA273BF4A1009242C8 /* Message.swift */,
 				A1F10473273BAFE00030E84E /* Main.storyboard */,
+				387A3B6E273E474300083B54 /* SignInVC.swift */,
 				38D176E4273BDAE8009242C8 /* Chat_Board.swift */,
 				38D176DC273BCF3A009242C8 /* ChatTBC.swift */,
 				38D176DD273BCF3A009242C8 /* ChatTBC.xib */,
@@ -436,6 +439,7 @@
 				A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */,
 				38D176E5273BDAE9009242C8 /* Chat_Board.swift in Sources */,
 				38D176EB273BF4A1009242C8 /* Message.swift in Sources */,
+				387A3B6F273E474300083B54 /* SignInVC.swift in Sources */,
 				A1F10478273BAFE00030E84E /* Skype.xcdatamodeld in Sources */,
 				A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */,
 				38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */,
