@@ -16,6 +16,10 @@
 		38D176E7273BE903009242C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176E6273BE903009242C8 /* Constants.swift */; };
 		38D176EB273BF4A1009242C8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D176EA273BF4A1009242C8 /* Message.swift */; };
 		6B59F323128B63B96BF27E0E /* Pods_SkypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0B5A8871306F7D49B6D44A /* Pods_SkypeTests.framework */; };
+		A1BBC000273CD3F4003FFFF3 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBBFFF273CD3F4003FFFF3 /* SearchVC.swift */; };
+		A1BBC002273CD409003FFFF3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC001273CD409003FFFF3 /* ProfileVC.swift */; };
+		A1BBC004273CD416003FFFF3 /* CallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC003273CD416003FFFF3 /* CallVC.swift */; };
+		A1BBC006273CD46B003FFFF3 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC005273CD46B003FFFF3 /* WelcomeVC.swift */; };
 		A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046D273BAFE00030E84E /* AppDelegate.swift */; };
 		A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1046F273BAFE00030E84E /* SceneDelegate.swift */; };
 		A1F10472273BAFE00030E84E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F10471273BAFE00030E84E /* ViewController.swift */; };
@@ -60,6 +64,10 @@
 		38D176EA273BF4A1009242C8 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		48D5AA637890119EF1EB49D3 /* Pods-Skype-SkypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype-SkypeUITests.release.xcconfig"; path = "Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71AF3572FB595603DFF7AE88 /* Pods-Skype-SkypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skype-SkypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Skype-SkypeUITests/Pods-Skype-SkypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BBBFFF273CD3F4003FFFF3 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A1BBC001273CD409003FFFF3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A1BBC003273CD416003FFFF3 /* CallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallVC.swift; sourceTree = "<group>"; };
+		A1BBC005273CD46B003FFFF3 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		A1F1046A273BAFE00030E84E /* Skype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1046D273BAFE00030E84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F1046F273BAFE00030E84E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +125,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A1BBC007273CD47E003FFFF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1F10471273BAFE00030E84E /* ViewController.swift */,
+				A1BBBFFF273CD3F4003FFFF3 /* SearchVC.swift */,
+				A1BBC001273CD409003FFFF3 /* ProfileVC.swift */,
+				A1BBC003273CD416003FFFF3 /* CallVC.swift */,
+				A1BBC005273CD46B003FFFF3 /* WelcomeVC.swift */,
+				38D176E4273BDAE8009242C8 /* Chat_Board.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1BBC008273CD4AC003FFFF3 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				38D176DC273BCF3A009242C8 /* ChatTBC.swift */,
+				38D176DD273BCF3A009242C8 /* ChatTBC.xib */,
+				38D176E1273BD425009242C8 /* MessageCell.swift */,
+				38D176E0273BD425009242C8 /* MessageCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		A1F10461273BAFE00030E84E = {
 			isa = PBXGroup;
 			children = (
@@ -144,19 +176,15 @@
 			children = (
 				A1F1046D273BAFE00030E84E /* AppDelegate.swift */,
 				A1F1046F273BAFE00030E84E /* SceneDelegate.swift */,
-				A1F10471273BAFE00030E84E /* ViewController.swift */,
-				38D176EA273BF4A1009242C8 /* Message.swift */,
 				A1F10473273BAFE00030E84E /* Main.storyboard */,
-				38D176E4273BDAE8009242C8 /* Chat_Board.swift */,
-				38D176DC273BCF3A009242C8 /* ChatTBC.swift */,
-				38D176DD273BCF3A009242C8 /* ChatTBC.xib */,
-				38D176E1273BD425009242C8 /* MessageCell.swift */,
-				38D176E0273BD425009242C8 /* MessageCell.xib */,
 				A1F10479273BAFE20030E84E /* Assets.xcassets */,
 				38D176E6273BE903009242C8 /* Constants.swift */,
+				38D176EA273BF4A1009242C8 /* Message.swift */,
 				A1F1047B273BAFE20030E84E /* LaunchScreen.storyboard */,
 				A1F1047E273BAFE20030E84E /* Info.plist */,
 				A1F10476273BAFE00030E84E /* Skype.xcdatamodeld */,
+				A1BBC008273CD4AC003FFFF3 /* Xibs */,
+				A1BBC007273CD47E003FFFF3 /* Controllers */,
 			);
 			path = Skype;
 			sourceTree = "<group>";
@@ -436,10 +464,14 @@
 				A1F1046E273BAFE00030E84E /* AppDelegate.swift in Sources */,
 				38D176E5273BDAE9009242C8 /* Chat_Board.swift in Sources */,
 				38D176EB273BF4A1009242C8 /* Message.swift in Sources */,
+				A1BBC006273CD46B003FFFF3 /* WelcomeVC.swift in Sources */,
 				A1F10478273BAFE00030E84E /* Skype.xcdatamodeld in Sources */,
 				A1F10470273BAFE00030E84E /* SceneDelegate.swift in Sources */,
+				A1BBC000273CD3F4003FFFF3 /* SearchVC.swift in Sources */,
 				38D176DE273BCF3A009242C8 /* ChatTBC.swift in Sources */,
+				A1BBC004273CD416003FFFF3 /* CallVC.swift in Sources */,
 				38D176E3273BD425009242C8 /* MessageCell.swift in Sources */,
+				A1BBC002273CD409003FFFF3 /* ProfileVC.swift in Sources */,
 				38D176E7273BE903009242C8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

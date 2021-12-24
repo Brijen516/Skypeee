@@ -53,6 +53,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         ivChat.image = UIImage(named: "chat_unselected")
         ivSearch.image = UIImage(named: "search_unselected")
         ivProfile.image = UIImage(named: "profile_unselected")
+        let vc = storyboard?.instantiateViewController(withIdentifier: "CallVC")as! CallVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func onClickChat(_ sender: UIButton) {
@@ -60,6 +62,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         ivChat.image = UIImage(named: "chat")
         ivSearch.image = UIImage(named: "search_unselected")
         ivProfile.image = UIImage(named: "profile_unselected")
+
+
     }
     
     @IBAction func onClickSearch(_ sender: UIButton){
@@ -67,6 +71,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         ivChat.image = UIImage(named: "chat_unselected")
         ivSearch.image = UIImage(named: "search")
         ivProfile.image = UIImage(named: "profile_unselected")
+        let vc = storyboard?.instantiateViewController(withIdentifier: "SearchVC")as! SearchVC
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
     
     @IBAction func onClickProfile(_ sender: UIButton) {
@@ -74,6 +81,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         ivChat.image = UIImage(named: "chat_unselected")
         ivSearch.image = UIImage(named: "search_unselected")
         ivProfile.image = UIImage(named: "profile")
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ProfileVC")as! ProfileVC
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
     
     @IBAction func onClickFilter(_ sender: UIButton) {
@@ -106,5 +116,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 }
